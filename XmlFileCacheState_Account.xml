@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailAccount xmlns="http://www.hp.com/schemas/imaging/con/ledm/emailservicedyn/2010/11/22" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.hp.com/schemas/imaging/con/ledm/emailservicedyn/2010/11/22 EmailAccountsDyn.xsd">
+	<DisplayName xmlns="http://www.hp.com/schemas/imaging/con/dictionaries/1.0/">SCANER-00345-4</DisplayName>
+	<EmailAddress xmlns="http://www.hp.com/schemas/imaging/con/dictionaries/1.0/">Test.gante@hp.com</EmailAddress>
+	<SMTPServerSettings xmlns="http://www.hp.com/schemas/imaging/con/digitalsending/2010/11/22">
+		<NetworkID xmlns="http://www.hp.com/schemas/imaging/con/dictionaries/2009/04/06">smtp3.hp.com</NetworkID>
+		<Port xmlns="http://www.hp.com/schemas/imaging/con/dictionaries/1.0/">20</Port>
+		<MaxAttachmentSize xmlns="http://www.hp.com/schemas/imaging/con/dictionaries/1.0/">0</MaxAttachmentSize>
+		<ServerRequiresAuthentication xmlns="http://www.hp.com/schemas/imaging/con/dictionaries/1.0/">false</ServerRequiresAuthentication>
+		<AuthenticationSettings xmlns="http://www.hp.com/schemas/imaging/con/security/2009/02/11">
+			<SimpleAuthenticationSettings>hp_simple_v1</SimpleAuthenticationSettings>
+			<WindowsAuthenticationSettings/>
+		</AuthenticationSettings>
+		<UseSSL xmlns="http://www.hp.com/schemas/imaging/con/dictionaries/1.0/">true</UseSSL>
+	</SMTPServerSettings>
+</EmailAccount>
